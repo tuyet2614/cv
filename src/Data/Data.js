@@ -4,6 +4,7 @@ const Vocabulary = [
     group: 'contract',
     title: 'abide by',
     mean: 'tuân theo, giữ lời',
+    phonetic: '/əˈbaɪd baɪ/',
     url: require('../component/audio/abideby.mp3'),
   },
   {
@@ -44,6 +45,7 @@ const Vocabulary = [
     group: 'marketing',
     title: 'compare',
     mean: 'so sánh, đối chiếu',
+    phonetic: "/kəm'peə/",
     url: require('../component/audio/compare.mp3'),
   },
   {
@@ -51,6 +53,7 @@ const Vocabulary = [
     group: 'marketing',
     title: 'competition',
     mean: 'cạnh tranh, tranh giành',
+    phonetic: "/,kɔmpi'tiʃn/",
     url: require('../component/audio/competition.mp3'),
   },
   {
@@ -58,6 +61,7 @@ const Vocabulary = [
     group: 'marketing',
     title: 'consume',
     mean: 'tiêu thụ, tiêu dùng',
+    phonetic: '/kənˈsuːm/',
     url: require('../component/audio/consume.mp3'),
   },
 
@@ -66,6 +70,7 @@ const Vocabulary = [
     group: 'warranties',
     title: 'characteristic',
     mean: 'đặc thù, đặc trưng',
+    phonetic: "/,kæriktə'ristik/",
     url: require('../component/audio/characteristic.mp3'),
   },
   {
@@ -73,6 +78,7 @@ const Vocabulary = [
     group: 'warranties',
     title: 'consequence',
     mean: 'kết quả, hậu quả',
+    phonetic: "/'kɔnsikwəns/",
     url: require('../component/audio/consequence.mp3'),
   },
   {
@@ -80,6 +86,7 @@ const Vocabulary = [
     group: 'warranties',
     title: 'consider',
     mean: 'cân nhắc suy sét',
+    phonetic: "/kən'sidə/",
     url: require('../component/audio/consider.mp3'),
   },
   {
@@ -87,6 +94,7 @@ const Vocabulary = [
     group: 'warranties',
     title: 'cover',
     mean: 'che, phủ, trùm',
+    phonetic: "/'kʌvə/",
     url: require('../component/audio/cover.mp3'),
   },
   {
@@ -94,6 +102,7 @@ const Vocabulary = [
     group: 'computer',
     title: 'access',
     mean: 'lối vào, đường vào',
+    phonetic: '/æksɛs/',
     url: require('../component/audio/access.mp3'),
   },
   {
@@ -101,6 +110,7 @@ const Vocabulary = [
     group: 'computer',
     title: 'allocate',
     mean: 'cấp cho, phân phối',
+    phonetic: '/ˈæl.ə.keɪt/',
     url: require('../component/audio/allocate.mp3'),
   },
   {
@@ -108,6 +118,7 @@ const Vocabulary = [
     group: 'Business Planning',
     title: 'address',
     mean: 'địa chỉ, diễn văn',
+    phonetic: '/ˈæd.res/',
     url: require('../component/audio/address.mp3'),
   },
   {
@@ -115,6 +126,7 @@ const Vocabulary = [
     group: 'Business Planning',
     title: 'avoid',
     mean: 'tránh, tránh khỏi, hủy bỏ',
+    phonetic: '/əˈvɔɪd/',
     url: require('../component/audio/avoid.mp3'),
   },
 ];

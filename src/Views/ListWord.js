@@ -17,13 +17,7 @@ const getSound = item => {
         return;
       }
 
-      // when loaded successfully
-      //   console.log(
-      //     'duration in seconds: ' +
-      //       whoosh.getDuration() +
-      //       'number of channels: ' +
-      //       whoosh.getNumberOfChannels(),
-      //   );
+      //   when loaded successfully
     }),
   );
 };
@@ -53,14 +47,8 @@ const ListWord = ({route, navigation}) => {
 
   useEffect(() => {
     Vocabulary.map(item => getSound(item.url));
-    console.log('sound:', sound);
-    // getSound(Vocabulary[1].url);
-    // sound[0].setVolume(1);
+
     sound.map((item, index) => sound[index].setVolume(1));
-    return () => {
-      sound.map((item, index) => sound[index].release());
-      //   sound[0].release();
-    };
   }, []);
 
   const playPause = item => {
